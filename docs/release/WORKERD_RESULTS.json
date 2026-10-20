@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "runtime": "workerd 2026-10-19",
+  "packages": {
+    "workerd": "1.20261019.1",
+    "esbuild": "0.28.2"
+  },
+  "host": "Linux x86_64; glibc 2.35",
+  "compatibility_date": "2026-10-19",
+  "compatibility_flags": [],
+  "network": "deny all outbound; no sockets",
+  "core_version": "0.1.0-g0.65e1ec3",
+  "core_archive_sha256": "acf4e1ef6af55b81607b1a9df9e8b684b6ac6bf0d95b39a389bc5e57d3c001fe",
+  "bundle_bytes": 93266,
+  "bundle_sha256": "68b3d24e00fb76ca4e09c899162fe70fdce7ad2c9ef7689199956d02a5fcd8a9",
+  "results": [
+    {
+      "case": "baseline",
+      "cpu_user_seconds": 0.02,
+      "cpu_system_seconds": 0.01,
+      "peak_rss_kib": 44800,
+      "wall_seconds": 0.04
+    },
+    {
+      "case": "players2",
+      "cpu_user_seconds": 0.11,
+      "cpu_system_seconds": 0.02,
+      "peak_rss_kib": 61952,
+      "wall_seconds": 0.17,
+      "result": {
+        "players": 2,
+        "initial_hash": "811a198f1b1fefb3126dd9f51217a5eda160502215c4be59dc128fc2c1c4f25a",
+        "accepted_hash": "1c4f37c1c25bf82cc3e971c8a458806470ab8829076c4a2f78b88faac0b56324",
+        "final_hash": "872df617a6811ed88490c1ce6f9f88d94b5dceebdbf4fa2622e28434bb6d6e25",
+        "repeats": 1,
+        "exam": "PASS",
+        "learning": "PASS",
+        "core_validation": "PASS",
+        "agent_projection": "PASS"
+      },
+      "native_hash_match": true
+    },
+    {
+      "case": "players3",
+      "cpu_user_seconds": 0.1,
+      "cpu_system_seconds": 0.02,
+      "peak_rss_kib": 62080,
+      "wall_seconds": 0.18,
+      "result": {
+        "players": 3,
+        "initial_hash": "3db23aae9bf656c9f9c1851a6171b81180e445ebaa82cff85e0c06f54b2858ab",
+        "accepted_hash": "b2a958d3dbe52fe1462d85f1b7928689d0231120ff0584e4990031455ccda277",
+        "final_hash": "e858c74b33a0094ad374f7eece7f84cb701edf15434d8cbd2be7fa9b807d70f4",
+        "repeats": 1,
+        "exam": "PASS",
+        "learning": "PASS",
+        "core_validation": "PASS",
+        "agent_projection": "PASS"
+      },
+      "native_hash_match": true
+    },
+    {
+      "case": "players4",
+      "cpu_user_seconds": 0.1,
+      "cpu_system_seconds": 0.03,
+      "peak_rss_kib": 62080,
+      "wall_seconds": 0.19,
+      "result": {
+        "players": 4,
+        "initial_hash": "eb7c28a5d1335d13d2b5565527e4a1f8fcf279a80c832d3f2efba6067e94bb91",
+        "accepted_hash": "7facac99f892f7b2ae903f07dd4ab2b1c37c0900be4fd396edbe1b4e8e8281fc",
+        "final_hash": "ab7cbfca1e8c11e71348b9cc8aba6b60e5144fb586bdfbade3c6e31c5a714145",
+        "repeats": 1,
+        "exam": "PASS",
+        "learning": "PASS",
+        "core_validation": "PASS",
+        "agent_projection": "PASS"
+      },
+      "native_hash_match": true
+    },
+    {
+      "case": "stress4",
+      "cpu_user_seconds": 0.53,
+      "cpu_system_seconds": 0.04,
+      "peak_rss_kib": 66560,
+      "wall_seconds": 0.6,
+      "result": {
+        "players": 4,
+        "initial_hash": "eb7c28a5d1335d13d2b5565527e4a1f8fcf279a80c832d3f2efba6067e94bb91",
+        "accepted_hash": "7facac99f892f7b2ae903f07dd4ab2b1c37c0900be4fd396edbe1b4e8e8281fc",
+        "final_hash": "ab7cbfca1e8c11e71348b9cc8aba6b60e5144fb586bdfbade3c6e31c5a714145",
+        "repeats": 25,
+        "exam": "PASS",
+        "learning": "PASS",
+        "core_validation": "PASS",
+        "agent_projection": "PASS"
+      },
+      "native_hash_match": true
+    }
+  ],
+  "measurement_scope": "OS CPU/wall/peak RSS for whole workerd process including startup; not isolate heap or cloud quota verification",
+  "production_api_tested": false,
+  "privacy_redactions": [
+    "detailed local kernel/build string omitted; no change to test results or measurements"
+  ]
+}

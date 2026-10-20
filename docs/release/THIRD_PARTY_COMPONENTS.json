@@ -1,0 +1,316 @@
+{
+  "status": "inventory, not permission to publish",
+  "third_party_implementation_files_in_original_61": 0,
+  "components": [
+    {
+      "name": "ShashBesh Core",
+      "version": "0.1.0-g0.65e1ec3",
+      "source": "pinned original local artifact; source commit 65e1ec3cc65db7de3ce627c733cac45fc55fc11f",
+      "license": "GPL-3.0-only within existing eight-file owner-controlled grant",
+      "included": "NO: original artifact, source and CSV excluded",
+      "attribution": "retain original artifact LICENSE, manifest, source/notices if separately redistributed",
+      "redistribution": "only within actual original rights/grant and GPL obligations; no Lab-wide relicensing; reconcile stale CSV annotation with existing exact-file approval",
+      "approval": "Core license unchanged; no new artifact redistribution cleared"
+    },
+    {
+      "name": "@noble/hashes",
+      "version": "1.8.0",
+      "source": "https://github.com/paulmillr/noble-hashes/tree/1.8.0",
+      "license": "MIT",
+      "included": "license text only; implementation is an excluded Core dependency",
+      "attribution": "Copyright (c) 2022 Paul Miller (https://paulmillr.com)",
+      "license_file": "LICENSES/MIT-noble-hashes.txt",
+      "redistribution": "preserve upstream copyright and permission notice; MIT terms remain separate; compatible with GPLv3 combination",
+      "license_file_sha256": "4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec"
+    },
+    {
+      "name": "esbuild",
+      "version": "0.28.2",
+      "source": "https://github.com/evanw/esbuild",
+      "license": "MIT",
+      "included": "license text and dependency references only; no implementation/binary",
+      "attribution": "Copyright (c) 2020 Evan Wallace",
+      "license_file": "LICENSES/MIT-esbuild.txt",
+      "redistribution": "preserve copyright and permission notice; optional downloaded tool, not Lab-owned code",
+      "license_file_sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+    },
+    {
+      "name": "workerd",
+      "version": "1.20261019.1",
+      "source": "https://github.com/cloudflare/workerd",
+      "license": "Apache-2.0",
+      "included": "standard license text and dependency references only; no runtime implementation/binary",
+      "license_file": "LICENSES/Apache-2.0.txt",
+      "attribution": "Cloudflare workerd project; no upstream NOTICE in inspected npm package; no copyright owner is invented",
+      "redistribution": "if code is later distributed preserve license, applicable attribution/NOTICE and modified-file notices; separately audit binary/transitive terms; Apache-2.0 compatible with GPLv3, not a relicensing of workerd",
+      "license_file_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "name": "GNU GPL version 3 license text",
+      "version": "3, 29 June 2007",
+      "source": "https://www.gnu.org/licenses/gpl-3.0.txt",
+      "license": "license-document verbatim-copy permission",
+      "included": "COPYING verbatim, not an owner-written implementation",
+      "attribution": "Copyright (C) 2007 Free Software Foundation, Inc.",
+      "license_file": "COPYING",
+      "redistribution": "verbatim license text only; copying the text does not activate a grant for Lab files",
+      "license_file_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "name": "Apache License version 2 text",
+      "version": "2.0, January 2004",
+      "source": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "license": "Apache-2.0 license document",
+      "included": "LICENSES/Apache-2.0.txt verbatim",
+      "redistribution": "retain text unchanged; not a fabricated workerd NOTICE"
+    }
+  ],
+  "optional_dependency_metadata": [
+    {
+      "name": "@cloudflare/workerd-darwin-64",
+      "version": "1.20261019.1",
+      "license_declared": "Apache-2.0",
+      "source": "https://registry.npmjs.org/@cloudflare/workerd-darwin-64/-/workerd-darwin-64-1.20261019.1.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@cloudflare/workerd-darwin-arm64",
+      "version": "1.20261019.1",
+      "license_declared": "Apache-2.0",
+      "source": "https://registry.npmjs.org/@cloudflare/workerd-darwin-arm64/-/workerd-darwin-arm64-1.20261019.1.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@cloudflare/workerd-linux-64",
+      "version": "1.20261019.1",
+      "license_declared": "Apache-2.0",
+      "source": "https://registry.npmjs.org/@cloudflare/workerd-linux-64/-/workerd-linux-64-1.20261019.1.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@cloudflare/workerd-linux-arm64",
+      "version": "1.20261019.1",
+      "license_declared": "Apache-2.0",
+      "source": "https://registry.npmjs.org/@cloudflare/workerd-linux-arm64/-/workerd-linux-arm64-1.20261019.1.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@cloudflare/workerd-windows-64",
+      "version": "1.20261019.1",
+      "license_declared": "Apache-2.0",
+      "source": "https://registry.npmjs.org/@cloudflare/workerd-windows-64/-/workerd-windows-64-1.20261019.1.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/aix-ppc64/-/aix-ppc64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/android-arm",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/android-arm/-/android-arm-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/android-arm64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/android-arm64/-/android-arm64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/android-x64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/android-x64/-/android-x64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/darwin-x64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/darwin-x64/-/darwin-x64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/freebsd-arm64/-/freebsd-arm64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/freebsd-x64/-/freebsd-x64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/linux-arm",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/linux-arm/-/linux-arm-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/linux-arm64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/linux-arm64/-/linux-arm64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/linux-ia32",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/linux-ia32/-/linux-ia32-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/linux-loong64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/linux-loong64/-/linux-loong64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/linux-mips64el/-/linux-mips64el-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/linux-ppc64/-/linux-ppc64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/linux-riscv64/-/linux-riscv64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/linux-s390x",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/linux-s390x/-/linux-s390x-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/linux-x64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/linux-x64/-/linux-x64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/netbsd-arm64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/netbsd-arm64/-/netbsd-arm64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/netbsd-x64/-/netbsd-x64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/openbsd-arm64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/openbsd-arm64/-/openbsd-arm64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/openbsd-x64/-/openbsd-x64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/openharmony-arm64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/openharmony-arm64/-/openharmony-arm64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/sunos-x64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/sunos-x64/-/sunos-x64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/win32-arm64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/win32-arm64/-/win32-arm64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/win32-ia32",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/win32-ia32/-/win32-ia32-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "@esbuild/win32-x64",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "esbuild",
+      "version": "0.28.2",
+      "license_declared": "MIT",
+      "source": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",
+      "implementation_included": false
+    },
+    {
+      "name": "workerd",
+      "version": "1.20261019.1",
+      "license_declared": "Apache-2.0",
+      "source": "https://registry.npmjs.org/workerd/-/workerd-1.20261019.1.tgz",
+      "implementation_included": false
+    }
+  ],
+  "external_not_redistributed": [
+    "Python standard library/runtime",
+    "Node.js runtime",
+    "pytest",
+    "Firefox",
+    "geckodriver"
+  ],
+  "external_distribution_policy": "do not redistribute system binaries from this audit; their complete notices/transitive licenses are outside this source-only package",
+  "documentation": "no separately licensed third-party documentation source identified; project documents/translations need owner confirmation; primary references are linked, not relicensed",
+  "assets": "no bundled font/image/Game UI assets; static outputs derive from reviewed source, and public build contains no Core/CSV",
+  "compatibility_sources": [
+    "https://www.gnu.org/licenses/license-list.html#Expat",
+    "https://www.gnu.org/licenses/license-list.html#apache2",
+    "https://www.apache.org/licenses/GPL-compatibility.html"
+  ]
+}

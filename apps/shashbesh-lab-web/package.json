@@ -1,0 +1,15 @@
+{
+  "name": "shashbesh-lab-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test tests/web.test.mjs",
+    "start": "python3 server.py",
+    "build:public": "node build.mjs --public-preview"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

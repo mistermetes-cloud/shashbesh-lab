@@ -1,0 +1,45 @@
+{
+  "checked_at_utc": "2026-10-20T02:44:34.439921+00:00",
+  "results": [
+    {
+      "resource": "game",
+      "public_url": "https://shashbesh.pages.dev",
+      "checked_url": "https://shashbesh.pages.dev",
+      "planned": false,
+      "http_status": 200,
+      "reachable": true
+    },
+    {
+      "resource": "game_github",
+      "public_url": "https://github.com/mistermetes-cloud/ShashBesh",
+      "checked_url": "https://api.github.com/repos/mistermetes-cloud/ShashBesh",
+      "planned": false,
+      "http_status": 200,
+      "reachable": true,
+      "public_repository": true,
+      "issues_enabled": true,
+      "discussions_enabled": false,
+      "detected_license": null
+    },
+    {
+      "resource": "lab_planned",
+      "public_url": "https://shashbesh-lab.pages.dev",
+      "checked_url": "https://shashbesh-lab.pages.dev",
+      "planned": true,
+      "http_status": null,
+      "reachable": false,
+      "error": "URLError"
+    },
+    {
+      "resource": "lab_github_planned",
+      "public_url": "https://github.com/mistermetes-cloud/shashbesh-lab",
+      "checked_url": "https://api.github.com/repos/mistermetes-cloud/shashbesh-lab",
+      "planned": true,
+      "http_status": 404,
+      "reachable": false,
+      "error": "HTTPError"
+    }
+  ],
+  "lab_publication_confirmed": false,
+  "note": "404 may also mean inaccessible/private; no authenticated lookup or publication was performed."
+}
